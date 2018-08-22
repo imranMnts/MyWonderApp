@@ -1367,6 +1367,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = lu.arhs.ios.MyWonderApp;
 				PRODUCT_NAME = MyWonderApp;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1388,6 +1389,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = lu.arhs.ios.MyWonderApp;
 				PRODUCT_NAME = MyWonderApp;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1551,6 +1553,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = lu.arhs.ios.MyWonderApp.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1579,6 +1582,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = lu.arhs.ios.MyWonderApp.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
