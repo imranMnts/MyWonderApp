@@ -133,6 +133,20 @@ android {
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
     }
+    signingConfigs {
+        debug {
+            storeFile file("../keys/debug.jks")
+            storePassword "your_password"
+            keyAlias "debug"
+            keyPassword "your_password"
+        }
+        release {
+            storeFile file("../keys/release.jks")
+            storePassword "your_password"
+            keyAlias "release"
+            keyPassword "your_password"
+        }
+    }
     productFlavors {
         dev {
             applicationIdSuffix '.dev'
